@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(255, 173, 211);
+  background-color: rgb(180, 180, 225);
 }
 
 .box {
@@ -86,7 +86,7 @@ body {
 .left-eye {
   height: 25%;
   width: 22%;
-  background-color: black;
+  background-color: white;
   position: absolute;
   top: 35%;
   left: 20%;
@@ -97,12 +97,22 @@ body {
 .right-eye {
   height: 25%;
   width: 22%;
-  background-color: black;
+  background-color: white;
   position: absolute;
   top: 35%;
   right: 20%;
   z-index: 2;
   border-radius: 50%;
+}
+
+.pupil {
+  width: 80%;
+  height: 80%;
+  background-color: black;
+  border-radius: 50%;
+  top: 9px;
+  left: 6px;
+  position: absolute;
 }
 
 .nose {
@@ -119,9 +129,9 @@ body {
 .mouth {
   position: absolute;
   height: 9px;
-  width: 96px;
+  width: 85px;
   top: 65%;
-  left: 35%;
+  left: 36%;
   z-index: 2;
   border-bottom: 4px solid black;
   border-radius: 0px 0px 20px 20px;
@@ -129,7 +139,7 @@ body {
 
 .drop {
   height: 17px;
-  width: 1px;
+  width: 3px;
   background-color: black;
   position: absolute;
   top: 62%;
@@ -142,7 +152,7 @@ body {
   width: 30%;
   height: 32%;
   background-color: white;
-  top: 11%;
+  top: 16%;
   border-radius: 50%;
   right: 15%;
 }
@@ -156,7 +166,7 @@ body {
   position: absolute;
   height: 27px;
   width: 36px;
-  top: 70%;
+  top: 69.5%;
   left: 45%;
   z-index: 2;
   background-color: red;
