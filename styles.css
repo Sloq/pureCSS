@@ -1,0 +1,159 @@
+body {
+  background-color: rgb(255, 173, 211);
+}
+
+.box {
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  width: 600px;
+  height: 420px;
+  background: none;
+  /* border: solid 2px turquoise; */
+}
+
+.head {
+  position: absolute;
+  top: 16.5%;
+  left: 25%;
+  border-radius: 50%;
+  background-color: orange;
+  height: 65%;
+  width: 50%;   
+}
+
+.head-copy {
+  position: absolute;
+  border-radius: 50%;
+  background-color: orange;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+}
+
+.ear {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  background: orange;
+  border-radius: 15px 15px 200px 200px;
+}
+
+.ear.left {
+  left: -16%;
+  top: 5%;
+  transform: rotate(-90deg);
+}
+
+.ear.right {
+  right: -16%;
+  top: 5%;
+  transform: rotate(90deg);
+}
+
+.ear-inner {
+  position: absolute;
+  height: 60%;
+  width: 60%;
+  top: 20%;
+  background-color: white;
+  border-radius: 15px 15px 200px 200px;
+}
+
+.ear-inner.left {
+  top: 10%;
+  right: 10%;
+}
+
+.ear-inner.right {
+  left: 10%;
+  top: 10%;
+}
+
+.white-fur {
+  position: absolute;
+  opacity: 0.9;
+  background-color: white;
+  width: 207px;
+  height: 128px;
+  z-index: 2;
+  bottom: 16px;
+  left: 16%;
+  border-radius: 50%;
+}
+
+.left-eye {
+  height: 25%;
+  width: 22%;
+  background-color: black;
+  position: absolute;
+  top: 35%;
+  left: 20%;
+  z-index: 2;
+  border-radius: 50%;
+}
+
+.right-eye {
+  height: 25%;
+  width: 22%;
+  background-color: black;
+  position: absolute;
+  top: 35%;
+  right: 20%;
+  z-index: 2;
+  border-radius: 50%;
+}
+
+.nose {
+  position: absolute;
+  height: 20px;
+  width: 33px;  
+  background-color: black;
+  top: 55%;
+  left: 45%;
+  z-index: 2;
+  border-radius: 16px 16px 30px 30px;
+}
+
+.mouth {
+  position: absolute;
+  height: 9px;
+  width: 96px;
+  top: 65%;
+  left: 35%;
+  z-index: 2;
+  border-bottom: 4px solid black;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.drop {
+  height: 17px;
+  width: 1px;
+  background-color: black;
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  z-index: 2;
+}
+
+.shine {
+  position: absolute;
+  width: 30%;
+  height: 32%;
+  background-color: white;
+  top: 11%;
+  border-radius: 50%;
+  right: 15%;
+}
+
+.tongue {
+  position: absolute;
+  height: 27px;
+  width: 36px;
+  top: 70%;
+  left: 45%;
+  z-index: 2;
+  background-color: red;
+  border-radius: 0px 0px 20px 20px;
+}
