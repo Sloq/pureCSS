@@ -149,12 +149,12 @@ body {
 
 .shine {
   position: absolute;
-  width: 30%;
-  height: 32%;
+  width: 27%;
+  height: 31%;
   background-color: white;
-  top: 16%;
+  top: 22%;
   border-radius: 50%;
-  right: 15%;
+  right: 21%;
 }
 
 @keyframes example {
