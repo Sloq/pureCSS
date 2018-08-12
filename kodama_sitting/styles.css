@@ -1,0 +1,90 @@
+.body {
+  background-color: white;
+}
+
+.kodama-sitting-box {
+  background-color: #444444;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 20%;
+}
+
+.kodama-sitting {
+  width: 100%;
+  height: 100%;
+  /* transform: scale(0.5, 0.5); */
+}
+
+
+/* convert to belly and shoulders */
+.kodama-torso {
+  width: 20%;
+  height: 32%;
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 45% 42% 37% 37%;
+  position: absolute;
+  left: 37%;
+  top: 47%;
+  z-index: 3;
+}
+
+.kodama-shoulders {
+  width: 22%;
+  height: 14%;
+  background-color: #ffffff;
+  border-radius: 35% 51% 0% 0%;
+  position: absolute;
+  left: 37%;
+  top: 45%;
+  z-index: 4;
+}
+
+.kodama-arm {
+  position: absolute;
+  width: 8%;
+  height: 34%;
+  background-color: #ffffff;
+  border: 1px solid black;
+  top: 44%;
+  z-index: 2;
+}
+
+.kodama-arm.left {
+  left: 31%;
+  border-radius: 34px 0% 90% 80%;
+  transform: rotate(14deg);
+  /* border-radius: 34px 0% 60% 60%; */
+}
+
+.kodama-arm.right {
+  right: 36%;
+  border-radius: 0% 34px 100% 59%;
+  transform: rotate(-18deg);
+}
+
+.kodama-leg {
+  position: absolute;
+  width: 10%;
+  height: 15%;
+  background-color: #ffffff;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-radius: 50% 50% 0% 0%;
+  top: 64%;
+  z-index: 4;
+}
+
+.kodama-leg.left {
+  left: 36%;
+  transform: rotate(5deg);
+}
+
+.kodama-leg.right {
+  right: 40%;
+  transform: rotate(-5deg);
+}
