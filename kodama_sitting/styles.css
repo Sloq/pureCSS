@@ -89,6 +89,23 @@
   transform: rotate(-5deg);
 }
 
+@keyframes head-tilt {
+  0%   {transform: rotate(0deg);}
+  70%   {transform: rotate(-45deg);}
+  71%   {transform: rotate(50deg);}
+  72%   {transform: rotate(-43deg);}
+  73%   {transform: rotate(45deg);}
+  74%   {transform: rotate(-40deg);}
+  75%   {transform: rotate(44deg);}
+  76%   {transform: rotate(-35deg);}
+  77%   {transform: rotate(40deg);}
+  78%   {transform: rotate(-33deg);}
+  79%   {transform: rotate(37deg);}
+  80%   {transform: rotate(-32deg);}
+  81%   {transform: rotate(35deg);}
+  82% {transform: rotate(0deg);}
+}
+
 .kodama-head {
   height: 34%;
   width: 35%;
@@ -99,6 +116,10 @@
   left: 29%;
   border: solid 1px black;
   background-color: #fff;
+  animation-name: head-tilt;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: normal
 }
 
 .kodama-head-lobe {
@@ -129,24 +150,24 @@
 }
 
 .eye.left {
-  width: 24%;
-  height: 25%;
+  width: 27%;
+  height: 27%;
   top: 45%;
   left: 6%;
 }
 
 .eye.right {
-  width: 22%;
-  height: 24%;
+  width: 27%;
+  height: 28%;
   top: 12%;
-  right: 19%;
+  right: 16%;
 }
 
 .eye.mouth {
-  width: 21%;
-  height: 20%;
-  top: 65%;
-  left: 51%;
+  width: 19%;
+  height: 19%;
+  top: 68%;
+  left: 54%;
 }
 
 .nose {
